@@ -1,0 +1,16 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block content %}
+
+    <p>Your performance was {{ player.performance }} and you made {{player.mistakes}} errors.</p>
+
+
+    {% next_button %}
+
+
+{% endblock %}
